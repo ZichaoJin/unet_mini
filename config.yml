@@ -1,0 +1,13 @@
+root_train_img: "train_input/"
+root_train_mask: "train_target/"
+root_test_img: "test_input/"
+root_test_mask: "test_target/"
+workers: 0
+bsize: 25
+epochs: 30
+lr: 1e-4
+drop_prob: 0.1
+block_size: 5
+weight_decay: 1e-4
+scheduler_step_size: 100
+scheduler_gamma: 0.5
